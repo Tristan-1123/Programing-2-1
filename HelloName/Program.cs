@@ -15,8 +15,8 @@ namespace HelloName
             Console.WriteLine("Hello, " + name);
 
             Console.Write("enter your age: ");
-            int age = int.Parse(Console.)
-
+            int age = int.Parse(Console.ReadLine());
+            Console.WriteLine("You are " + age + " years old");
             Console.ReadKey();
         }
     }

@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang52Console", "Lang52Cons
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang54BConsole", "Lang54BConsole\Lang54BConsole.csproj", "{49A7D54C-C8C7-40DF-BEC7-3B4E8E873A06}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YourNameConsole", "YourNameConsole\YourNameConsole.csproj", "{9A1FB176-12D8-4A7E-84A6-EFE21877CF8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang54C", "Lang54C\Lang54C.csproj", "{BB643503-4926-443E-8258-6E548EA7A73C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{49A7D54C-C8C7-40DF-BEC7-3B4E8E873A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49A7D54C-C8C7-40DF-BEC7-3B4E8E873A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49A7D54C-C8C7-40DF-BEC7-3B4E8E873A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A1FB176-12D8-4A7E-84A6-EFE21877CF8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A1FB176-12D8-4A7E-84A6-EFE21877CF8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A1FB176-12D8-4A7E-84A6-EFE21877CF8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A1FB176-12D8-4A7E-84A6-EFE21877CF8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB643503-4926-443E-8258-6E548EA7A73C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB643503-4926-443E-8258-6E548EA7A73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB643503-4926-443E-8258-6E548EA7A73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB643503-4926-443E-8258-6E548EA7A73C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
