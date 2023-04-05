@@ -14,11 +14,11 @@ namespace Lang54C
             int dia = int.Parse(Console.ReadLine());
             double rad = (double)dia / 2;
             double cir = (double)(rad * 2) * 3.14159;
-            double area = (double)(rad * rad) * 3.14159;
+            double are = (double)(rad * rad) * 3.14159;
 
             Console.WriteLine("The Radius is " + rad);
             Console.WriteLine("The Circumference is " + Math.Round(cir,2));
-            Console.WriteLine("The Area is " + Math.Round(area, 2));
+            Console.WriteLine("The Area is " + Math.Round(are, 2));
             Console.ReadKey();
 
         }
