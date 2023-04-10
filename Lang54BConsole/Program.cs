@@ -10,19 +10,15 @@ namespace Lang54BConsole
     {
         static void Main(string[] args)
         {
-            Console.Write("Enter num1: ");
-            int num1 = int.Parse(Console.ReadLine());
-            Console.Write("Enter num2: ");
-            int num2 = int.Parse(Console.ReadLine());
-            Console.Write("Enter num3: ");
-            int num3 = int.Parse(Console.ReadLine());
-            Console.Write("Enter num4: ");
-            int num4 = int.Parse(Console.ReadLine());
+            Console.Write("Enter Diameter: ");
+            int dia = int.Parse(Console.ReadLine());
+            double rad = (double)dia / 2;
+            double cir = (double)(rad * 2) * 3.14159;
+            double are = (double)(rad * rad) * 3.14159;
 
-            int sum = num1 + num2 + num3 + num4;
-            double average = (double)sum / 4;
-            Console.WriteLine("Sum: " + sum);
-            Console.WriteLine("Average: " + Math.Round(average,2));
+            Console.WriteLine("The Radius is " + rad);
+            Console.WriteLine("The Circumference is " + Math.Round(cir, 2));
+            Console.WriteLine("The Area is " + Math.Round(are, 2));
             Console.ReadKey();
 
         }
