@@ -35,7 +35,14 @@ namespace Prog54A
                 miles = 412;
                 gallons = 40;
             }
-            else if (comboBox1.Text == "1989 Subaru")}
+            else if (comboBox1.Text == "1980 Subaru"){
+                miles = 361;
+                gallons = 18;
+            }
+            else if (comboBox1.Text == "1975 Cutlass"){
+                miles = 161;
+                gallons = 11;
+            }
             else {
                 MessageBox.Show("invalid Car selection");
                 return ; 

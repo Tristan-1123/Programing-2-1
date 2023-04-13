@@ -19,6 +19,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog54A", "Prog54A\Prog54A.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fav Club", "ConsoleApplication1\Fav Club.csproj", "{26BA4AB8-024B-4C2E-9FE3-344C33178DCF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang88", "Lang88\Lang88.csproj", "{6E5CEE10-A2CC-431B-BBB1-1EC6A5ECBB79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang85C", "Lang85C\Lang85C.csproj", "{2E68BED5-44BA-41B1-ACD3-1AD058F465E2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,14 @@ Global
 		{26BA4AB8-024B-4C2E-9FE3-344C33178DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26BA4AB8-024B-4C2E-9FE3-344C33178DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26BA4AB8-024B-4C2E-9FE3-344C33178DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E5CEE10-A2CC-431B-BBB1-1EC6A5ECBB79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E5CEE10-A2CC-431B-BBB1-1EC6A5ECBB79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E5CEE10-A2CC-431B-BBB1-1EC6A5ECBB79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E5CEE10-A2CC-431B-BBB1-1EC6A5ECBB79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E68BED5-44BA-41B1-ACD3-1AD058F465E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E68BED5-44BA-41B1-ACD3-1AD058F465E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E68BED5-44BA-41B1-ACD3-1AD058F465E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E68BED5-44BA-41B1-ACD3-1AD058F465E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
