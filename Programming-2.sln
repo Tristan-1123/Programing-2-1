@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang88", "Lang88\Lang88.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang85C", "Lang85C\Lang85C.csproj", "{2E68BED5-44BA-41B1-ACD3-1AD058F465E2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang54bForm", "Lang54bForm\Lang54bForm.csproj", "{C655FF7C-5207-4B62-9998-581235D45332}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,10 @@ Global
 		{2E68BED5-44BA-41B1-ACD3-1AD058F465E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E68BED5-44BA-41B1-ACD3-1AD058F465E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E68BED5-44BA-41B1-ACD3-1AD058F465E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C655FF7C-5207-4B62-9998-581235D45332}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C655FF7C-5207-4B62-9998-581235D45332}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C655FF7C-5207-4B62-9998-581235D45332}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C655FF7C-5207-4B62-9998-581235D45332}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

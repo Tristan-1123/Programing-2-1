@@ -82,7 +82,7 @@
             // 
             this.label4.Location = new System.Drawing.Point(141, 133);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 23);
+            this.label4.Size = new System.Drawing.Size(109, 23);
             this.label4.TabIndex = 7;
             this.label4.Text = "This is your birthday.";
             // 
