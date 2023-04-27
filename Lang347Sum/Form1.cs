@@ -7,8 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic;
 
-namespace HelloWorld
+namespace Lang347Sum
 {
     public partial class Form1 : Form
     {
@@ -17,25 +18,19 @@ namespace HelloWorld
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
-            Application.Exit();
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-            label1.Text = "Hello, world";
-            
+            int lcv = int.Parse(Interaction.InputBox("Prompt here", "Input Numbers"));
+            int total = 0;
+            for (int start = 0; start <= lcv; ++start){
+                total += start;
+            }
+            MessageBox.Show("The sum of numbers between 1 and " + lcv + " eqauls " + total);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            label1.Text = "";
+            Application.Exit();
         }
     }
 }

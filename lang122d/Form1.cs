@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HelloWorld
+namespace lang122d
 {
     public partial class Form1 : Form
     {
@@ -17,25 +17,18 @@ namespace HelloWorld
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-            label1.Text = "Hello, world";
-            
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
-            label1.Text = "";
+            
+            for (int x = -12; x < 17; x++){
+                int y = x^6 - 3x^5 -93x^4 + 87x^3 + 1596x^2;
+
+            } 
         }
     }
 }
